@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD175C61EA75E9100E0679C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD175C51EA75E9100E0679C /* AppDelegate.swift */; };
+		DAD175C81EA75E9100E0679C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD175C71EA75E9100E0679C /* ViewController.swift */; };
+		DAD175CB1EA75E9100E0679C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD175C91EA75E9100E0679C /* Main.storyboard */; };
+		DAD175CE1EA75E9100E0679C /* CokeStudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAD175CC1EA75E9100E0679C /* CokeStudio.xcdatamodeld */; };
+		DAD175D01EA75E9100E0679C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD175CF1EA75E9100E0679C /* Assets.xcassets */; };
+		DAD175D31EA75E9100E0679C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD175D11EA75E9100E0679C /* LaunchScreen.storyboard */; };
+		DAD175DE1EA75E9100E0679C /* CokeStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD175DD1EA75E9100E0679C /* CokeStudioTests.swift */; };
+		DAD175E91EA75E9100E0679C /* CokeStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD175E81EA75E9100E0679C /* CokeStudioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD175DA1EA75E9100E0679C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD175BA1EA75E9100E0679C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD175C11EA75E9100E0679C;
+			remoteInfo = CokeStudio;
+		};
+		DAD175E51EA75E9100E0679C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD175BA1EA75E9100E0679C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD175C11EA75E9100E0679C;
+			remoteInfo = CokeStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD175C21EA75E9100E0679C /* CokeStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CokeStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD175C51EA75E9100E0679C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD175C71EA75E9100E0679C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAD175CA1EA75E9100E0679C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD175CD1EA75E9100E0679C /* CokeStudio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CokeStudio.xcdatamodel; sourceTree = "<group>"; };
+		DAD175CF1EA75E9100E0679C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD175D21EA75E9100E0679C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD175D41EA75E9100E0679C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD175D91EA75E9100E0679C /* CokeStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CokeStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD175DD1EA75E9100E0679C /* CokeStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CokeStudioTests.swift; sourceTree = "<group>"; };
+		DAD175DF1EA75E9100E0679C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD175E41EA75E9100E0679C /* CokeStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CokeStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD175E81EA75E9100E0679C /* CokeStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CokeStudioUITests.swift; sourceTree = "<group>"; };
+		DAD175EA1EA75E9100E0679C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD175BF1EA75E9100E0679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD175D61EA75E9100E0679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD175E11EA75E9100E0679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD175B91EA75E9100E0679C = {
+			isa = PBXGroup;
+			children = (
+				DAD175C41EA75E9100E0679C /* CokeStudio */,
+				DAD175DC1EA75E9100E0679C /* CokeStudioTests */,
+				DAD175E71EA75E9100E0679C /* CokeStudioUITests */,
+				DAD175C31EA75E9100E0679C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD175C31EA75E9100E0679C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD175C21EA75E9100E0679C /* CokeStudio.app */,
+				DAD175D91EA75E9100E0679C /* CokeStudioTests.xctest */,
+				DAD175E41EA75E9100E0679C /* CokeStudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD175C41EA75E9100E0679C /* CokeStudio */ = {
+			isa = PBXGroup;
+			children = (
+				DAD175C51EA75E9100E0679C /* AppDelegate.swift */,
+				DAD175C71EA75E9100E0679C /* ViewController.swift */,
+				DAD175C91EA75E9100E0679C /* Main.storyboard */,
+				DAD175CF1EA75E9100E0679C /* Assets.xcassets */,
+				DAD175D11EA75E9100E0679C /* LaunchScreen.storyboard */,
+				DAD175D41EA75E9100E0679C /* Info.plist */,
+				DAD175CC1EA75E9100E0679C /* CokeStudio.xcdatamodeld */,
+			);
+			path = CokeStudio;
+			sourceTree = "<group>";
+		};
+		DAD175DC1EA75E9100E0679C /* CokeStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD175DD1EA75E9100E0679C /* CokeStudioTests.swift */,
+				DAD175DF1EA75E9100E0679C /* Info.plist */,
+			);
+			path = CokeStudioTests;
+			sourceTree = "<group>";
+		};
+		DAD175E71EA75E9100E0679C /* CokeStudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD175E81EA75E9100E0679C /* CokeStudioUITests.swift */,
+				DAD175EA1EA75E9100E0679C /* Info.plist */,
+			);
+			path = CokeStudioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD175C11EA75E9100E0679C /* CokeStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD175ED1EA75E9100E0679C /* Build configuration list for PBXNativeTarget "CokeStudio" */;
+			buildPhases = (
+				DAD175BE1EA75E9100E0679C /* Sources */,
+				DAD175BF1EA75E9100E0679C /* Frameworks */,
+				DAD175C01EA75E9100E0679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CokeStudio;
+			productName = CokeStudio;
+			productReference = DAD175C21EA75E9100E0679C /* CokeStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD175D81EA75E9100E0679C /* CokeStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD175F01EA75E9100E0679C /* Build configuration list for PBXNativeTarget "CokeStudioTests" */;
+			buildPhases = (
+				DAD175D51EA75E9100E0679C /* Sources */,
+				DAD175D61EA75E9100E0679C /* Frameworks */,
+				DAD175D71EA75E9100E0679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD175DB1EA75E9100E0679C /* PBXTargetDependency */,
+			);
+			name = CokeStudioTests;
+			productName = CokeStudioTests;
+			productReference = DAD175D91EA75E9100E0679C /* CokeStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD175E31EA75E9100E0679C /* CokeStudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD175F31EA75E9100E0679C /* Build configuration list for PBXNativeTarget "CokeStudioUITests" */;
+			buildPhases = (
+				DAD175E01EA75E9100E0679C /* Sources */,
+				DAD175E11EA75E9100E0679C /* Frameworks */,
+				DAD175E21EA75E9100E0679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD175E61EA75E9100E0679C /* PBXTargetDependency */,
+			);
+			name = CokeStudioUITests;
+			productName = CokeStudioUITests;
+			productReference = DAD175E41EA75E9100E0679C /* CokeStudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD175BA1EA75E9100E0679C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ajay singh thakur";
+				TargetAttributes = {
+					DAD175C11EA75E9100E0679C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					DAD175D81EA75E9100E0679C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAD175C11EA75E9100E0679C;
+					};
+					DAD175E31EA75E9100E0679C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAD175C11EA75E9100E0679C;
+					};
+				};
+			};
+			buildConfigurationList = DAD175BD1EA75E9100E0679C /* Build configuration list for PBXProject "CokeStudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD175B91EA75E9100E0679C;
+			productRefGroup = DAD175C31EA75E9100E0679C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD175C11EA75E9100E0679C /* CokeStudio */,
+				DAD175D81EA75E9100E0679C /* CokeStudioTests */,
+				DAD175E31EA75E9100E0679C /* CokeStudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD175C01EA75E9100E0679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD175D31EA75E9100E0679C /* LaunchScreen.storyboard in Resources */,
+				DAD175D01EA75E9100E0679C /* Assets.xcassets in Resources */,
+				DAD175CB1EA75E9100E0679C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD175D71EA75E9100E0679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD175E21EA75E9100E0679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD175BE1EA75E9100E0679C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD175C81EA75E9100E0679C /* ViewController.swift in Sources */,
+				DAD175CE1EA75E9100E0679C /* CokeStudio.xcdatamodeld in Sources */,
+				DAD175C61EA75E9100E0679C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD175D51EA75E9100E0679C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD175DE1EA75E9100E0679C /* CokeStudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD175E01EA75E9100E0679C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD175E91EA75E9100E0679C /* CokeStudioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD175DB1EA75E9100E0679C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD175C11EA75E9100E0679C /* CokeStudio */;
+			targetProxy = DAD175DA1EA75E9100E0679C /* PBXContainerItemProxy */;
+		};
+		DAD175E61EA75E9100E0679C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD175C11EA75E9100E0679C /* CokeStudio */;
+			targetProxy = DAD175E51EA75E9100E0679C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD175C91EA75E9100E0679C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD175CA1EA75E9100E0679C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD175D11EA75E9100E0679C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD175D21EA75E9100E0679C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD175EB1EA75E9100E0679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD175EC1EA75E9100E0679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD175EE1EA75E9100E0679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CokeStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajaysinghthakur.CokeStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DAD175EF1EA75E9100E0679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CokeStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajaysinghthakur.CokeStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DAD175F11EA75E9100E0679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CokeStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajaysinghthakur.CokeStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CokeStudio.app/CokeStudio";
+			};
+			name = Debug;
+		};
+		DAD175F21EA75E9100E0679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CokeStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajaysinghthakur.CokeStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CokeStudio.app/CokeStudio";
+			};
+			name = Release;
+		};
+		DAD175F41EA75E9100E0679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CokeStudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajaysinghthakur.CokeStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CokeStudio;
+			};
+			name = Debug;
+		};
+		DAD175F51EA75E9100E0679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CokeStudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajaysinghthakur.CokeStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CokeStudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD175BD1EA75E9100E0679C /* Build configuration list for PBXProject "CokeStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD175EB1EA75E9100E0679C /* Debug */,
+				DAD175EC1EA75E9100E0679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD175ED1EA75E9100E0679C /* Build configuration list for PBXNativeTarget "CokeStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD175EE1EA75E9100E0679C /* Debug */,
+				DAD175EF1EA75E9100E0679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD175F01EA75E9100E0679C /* Build configuration list for PBXNativeTarget "CokeStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD175F11EA75E9100E0679C /* Debug */,
+				DAD175F21EA75E9100E0679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD175F31EA75E9100E0679C /* Build configuration list for PBXNativeTarget "CokeStudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD175F41EA75E9100E0679C /* Debug */,
+				DAD175F51EA75E9100E0679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAD175CC1EA75E9100E0679C /* CokeStudio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAD175CD1EA75E9100E0679C /* CokeStudio.xcdatamodel */,
+			);
+			currentVersion = DAD175CD1EA75E9100E0679C /* CokeStudio.xcdatamodel */;
+			path = CokeStudio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAD175BA1EA75E9100E0679C /* Project object */;
+}
