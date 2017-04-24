@@ -2,7 +2,10 @@
 AVPlayer Demo
 Music Player
 ============
-
+[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
+)](https://developer.apple.com/iphone/index.action)
+[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
+)](https://developer.apple.com/swift)
 Fully functional music player which is written in swift programming language. 
 
  ![alt tag](https://raw.githubusercontent.com/bpolat/Music-Player/master/Music%20Player/music%20player.gif)
