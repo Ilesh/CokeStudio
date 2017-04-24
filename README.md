@@ -8,7 +8,7 @@ Music Player
 )](https://developer.apple.com/swift)
 Fully functional music player which is written in swift programming language. 
 
- ![alt tag](https://raw.githubusercontent.com/bpolat/Music-Player/master/Music%20Player/music%20player.gif)
+ ![alt tag](https://github.com/ajaysinghthakur/CokeStudio/blob/master/Pfn1ax4EeX8hW.gif)
 
 
 zero-project
